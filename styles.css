@@ -1,0 +1,39 @@
+.heading {
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1280px;
+}
+
+.container {
+    border: 1px solid rgba(0, 0, 0, .11);
+    ;
+    padding: 10px;
+    width: 1280px;
+    text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    .container {
+        border: 1px solid rgba(0, 0, 0, .11);
+        ;
+        padding: 10px;
+        width: 1280px;
+        text-align: center;
+    }
+}
+
+.controls-item {
+    display: inline-block;
+}
+
+.btn {
+    margin: 1px;
+}
