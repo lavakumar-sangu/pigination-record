@@ -2,261 +2,314 @@ var tableData = [{
         'first_name': 'Russell',
         'last_name': 'Wilson',
         'rank': '1',
+        'salary': '40,000'
     },
     {
         'first_name': 'Matt',
         'last_name': 'Hasselbeck',
         'rank': '2',
+        'salary': '40,000'
     },
+
     {
         'first_name': 'Jim',
         'last_name': 'Zorn',
         'rank': '3',
+        'salary': '40,000'
     },
     {
         'first_name': 'Brady',
         'last_name': 'Quinn',
         'rank': '4',
+        'salary': '40,000'
     },
     {
         'first_name': 'Charly',
         'last_name': 'Whitehurst',
         'rank': '5',
+        'salary': '40,000'
     },
     {
         'first_name': 'Duane',
         'last_name': 'Devine',
         'rank': '6',
+        'salary': '40,000'
     },
     {
         'first_name': 'Tom',
         'last_name': 'Brady',
         'rank': '7',
+        'salary': '40,000'
     },
     {
         'first_name': 'Arron',
         'last_name': 'Rogers',
         'rank': '8',
+        'salary': '40,000'
     },
     {
         'first_name': 'Patrick',
         'last_name': 'Mahoms',
         'rank': '9',
+        'salary': '40,000'
     },
     {
         'first_name': 'Gardner',
         'last_name': 'Minshew',
         'rank': '10',
+        'salary': '40,000'
     },
     {
         'first_name': 'Andrew',
         'last_name': 'Luck',
         'rank': '11',
+        'salary': '40,000'
     },
     {
         'first_name': 'Josh',
         'last_name': 'Gordon',
         'rank': '12',
+        'salary': '40,000'
     },
     {
         'first_name': 'Drew',
         'last_name': 'Brees',
         'rank': '13',
+        'salary': '40,000'
     },
     {
         'first_name': 'Cam',
         'last_name': 'Newton',
         'rank': '14',
+        'salary': '40,000'
     },
     {
         'first_name': 'Joe',
         'last_name': 'Montana',
         'rank': '15',
+        'salary': '40,000'
     },
     {
         'first_name': 'Steve',
         'last_name': 'Young',
         'rank': '16',
+        'salary': '40,000'
     },
     {
         'first_name': 'Dan',
         'last_name': 'Jones',
         'rank': '17',
+        'salary': '40,000'
     },
     {
         'first_name': 'Eli',
         'last_name': 'Manning',
         'rank': '18',
+        'salary': '40,000'
     },
     {
         'first_name': 'Marus',
         'last_name': 'Marriota',
         'rank': '19',
+        'salary': '40,000'
     },
     {
         'first_name': 'Ryan',
         'last_name': 'Fitzpatrick',
         'rank': '21',
+        'salary': '40,000'
     },
     {
         'first_name': 'Chad',
         'last_name': 'Pennington',
         'rank': '21',
+        'salary': '40,000'
     },
     {
         'first_name': 'John',
         'last_name': 'Doe',
         'rank': '22',
+        'salary': '40,000'
     },
     {
         'first_name': 'Russell',
         'last_name': 'Wilson',
         'rank': '21',
+        'salary': '40,000'
     },
     {
         'first_name': 'Matt',
         'last_name': 'Hasselbeck',
         'rank': '22',
+        'salary': '40,000'
     },
     {
         'first_name': 'Jim',
         'last_name': 'Zorn',
         'rank': '23',
+        'salary': '40,000'
     },
     {
         'first_name': 'Brady',
         'last_name': 'Quinn',
         'rank': '24',
+        'salary': '40,000'
     },
     {
         'first_name': 'Charly',
         'last_name': 'Whitehurst',
         'rank': '25',
+        'salary': '40,000'
     },
     {
         'first_name': 'Duane',
         'last_name': 'Devine',
         'rank': '26',
+        'salary': '40,000'
     },
     {
         'first_name': 'Tom',
         'last_name': 'Brady',
         'rank': '27',
+        'salary': '40,000'
     },
     {
         'first_name': 'Arron',
         'last_name': 'Rogers',
         'rank': '28',
+        'salary': '40,000'
     },
     {
         'first_name': 'Patrick',
         'last_name': 'Mahoms',
         'rank': '29',
+        'salary': '40,000'
     },
     {
         'first_name': 'Gardner',
         'last_name': 'Minshew',
         'rank': '30',
+        'salary': '40,000'
     },
     {
         'first_name': 'Andrew',
         'last_name': 'Luck',
         'rank': '31',
+        'salary': '40,000'
     },
     {
         'first_name': 'Josh',
         'last_name': 'Gordon',
         'rank': '32',
+        'salary': '40,000'
     },
     {
         'first_name': 'Drew',
         'last_name': 'Brees',
         'rank': '33',
+        'salary': '40,000'
     },
     {
         'first_name': 'Cam',
         'last_name': 'Newton',
         'rank': '34',
+        'salary': '40,000'
     },
     {
         'first_name': 'Joe',
         'last_name': 'Montana',
         'rank': '35',
+        'salary': '40,000'
     },
     {
         'first_name': 'Steve',
         'last_name': 'Young',
         'rank': '36',
+        'salary': '40,000'
     },
     {
         'first_name': 'Dan',
         'last_name': 'Jones',
         'rank': '37',
+        'salary': '40,000'
     },
     {
         'first_name': 'Eli',
         'last_name': 'Manning',
         'rank': '38',
+        'salary': '40,000'
     },
     {
         'first_name': 'Marus',
         'last_name': 'Marriota',
         'rank': '39',
+        'salary': '40,000'
     },
     {
         'first_name': 'Ryan',
         'last_name': 'Fitzpatrick',
         'rank': '40',
+        'salary': '40,000'
     },
     {
         'first_name': 'Chad',
         'last_name': 'Pennington',
         'rank': '41',
+        'salary': '40,000'
     },
     {
         'first_name': 'Matt',
         'last_name': 'Hasselbeck',
         'rank': '42',
+        'salary': '40,000'
     },
     {
         'first_name': 'Jim',
         'last_name': 'Zorn',
         'rank': '43',
+        'salary': '40,000'
     },
     {
         'first_name': 'Brady',
         'last_name': 'Quinn',
         'rank': '44',
+        'salary': '40,000'
     },
     {
         'first_name': 'Charly',
         'last_name': 'Whitehurst',
         'rank': '45',
+        'salary': '40,000'
     },
     {
         'first_name': 'Duane',
         'last_name': 'Devine',
         'rank': '46',
+        'salary': '40,000'
     },
     {
         'first_name': 'Tom',
         'last_name': 'Brady',
         'rank': '47',
+        'salary': '40,000'
     },
     {
         'first_name': 'Arron',
         'last_name': 'Rogers',
         'rank': '48',
+        'salary': '40,000'
     },
     {
         'first_name': 'Patrick',
         'last_name': 'Mahoms',
         'rank': '49',
+        'salary': '40,000'
     },
     {
         'first_name': 'Gardner',
         'last_name': 'Minshew',
         'rank': '50',
+        'salary': '40,000'
     },
     {
         'first_name': 'Andrew',
@@ -544,7 +597,7 @@ var tableData = [{
 var state = {
     'querySet': tableData,
     'page': 1,
-    'rows': 5,
+    'rows': 10,
     'window': 5,
 }
 
@@ -591,7 +644,12 @@ function pageButtons(pages) {
 
 
     for (var page = maxLeft; page <= maxRight; page++) {
-        wrapper.innerHTML += `<button value=${page} class="page btn btn-sm btn-info">${page}</button>`
+        if (state.page == page) {
+            wrapper.innerHTML += `<button value=${pages} style="background-color:red;" class="page btn btn-sm btn-info">${page}</button>`
+        } else {
+            wrapper.innerHTML += `<button value=${page} class="page btn btn-sm btn-info">${page}</button>`
+
+        }
     }
 
     if (state.page != 1) {
@@ -602,11 +660,12 @@ function pageButtons(pages) {
         wrapper.innerHTML += `<button value=${pages} class="page btn btn-sm btn-info">Last &#187;</button>`
     }
 
+
     $('.page').on('click', function() {
         $('#table-body').empty()
 
         state.page = Number($(this).val())
-
+        console.log(state.page)
         buildTable()
     })
 
@@ -623,6 +682,7 @@ function buildTable() {
                   <td>${myList[i].rank}</td>
                   <td>${myList[i].first_name}</td>
                   <td>${myList[i].last_name}</td>
+                  <td>${myList[i].salary}</td>
                   `
         table.append(row)
     }
