@@ -14,10 +14,13 @@ td {
 
 .container {
     border: 1px solid rgba(0, 0, 0, .11);
-    ;
     padding: 10px;
     width: 1280px;
     text-align: center;
+}
+
+#tablecontain {
+    width: 100%;
 }
 
 @media screen and (min-width: 480px) {
