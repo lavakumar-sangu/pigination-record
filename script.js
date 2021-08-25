@@ -641,33 +641,29 @@ function pageButtons(pages) {
         maxRight = pages
     }
 
-
-
     for (var page = maxLeft; page <= maxRight; page++) {
         if (state.page == page) {
-            wrapper.innerHTML += `<button value=${page} style="background-color:#0070ff;" class="page btn btn-sm btn-info">${page}</button>`
+            wrapper.innerHTML += `<button onclick="pageClicked(${page})" value=${page} style="background-color:#0070ff;" class="page btn btn-sm btn-info">${page}</button>`
         } else {
-            wrapper.innerHTML += `<button value=${page} class="page btn btn-sm btn-info">${page}</button>`
+            wrapper.innerHTML += `<button onclick="pageClicked(${page})" value=${page} class="page btn btn-sm btn-info">${page}</button>`
 
         }
     }
 
     if (state.page != 1) {
-        wrapper.innerHTML = `<button value=${1} class="page btn btn-sm btn-info">&#171; First</button>` + wrapper.innerHTML
+        wrapper.innerHTML = `<button onclick="pageClicked(1)" value=${1} class="page btn btn-sm btn-info">&#171; First</button>` + wrapper.innerHTML
     }
 
     if (state.page != pages) {
-        wrapper.innerHTML += `<button value=${pages} class="page btn btn-sm btn-info">Last &#187;</button>`
+        wrapper.innerHTML += `<button onclick="pageClicked(${pages})" value=${pages} class="page btn btn-sm btn-info">Last &#187;</button>`
     }
 
-    $('.page').on('click', function() {
-        $('#table-body').empty()
+}
 
-        state.page = Number($(this).val())
-        console.log(state.page)
-        buildTable()
-    })
-
+function pageClicked(pageNumber) {
+    document.getElementById('table-body').innerHTML = null;
+    state.page = Number(pageNumber);
+    buildTable();
 }
 
 function buildTable() {
