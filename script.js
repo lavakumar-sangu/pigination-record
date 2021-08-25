@@ -645,7 +645,7 @@ function pageButtons(pages) {
 
     for (var page = maxLeft; page <= maxRight; page++) {
         if (state.page == page) {
-            wrapper.innerHTML += `<button value=${pages} style="background-color:#0070ff;" class="page btn btn-sm btn-info">${page}</button>`
+            wrapper.innerHTML += `<button value=${page} style="background-color:#0070ff;" class="page btn btn-sm btn-info">${page}</button>`
         } else {
             wrapper.innerHTML += `<button value=${page} class="page btn btn-sm btn-info">${page}</button>`
 
@@ -659,8 +659,9 @@ function pageButtons(pages) {
     if (state.page != pages) {
         wrapper.innerHTML += `<button value=${pages} class="page btn btn-sm btn-info">Last &#187;</button>`
     }
-    $(".page").on("click", function() {
-        $("#table-body").empty()
+
+    $('.page').on('click', function() {
+        $('#table-body').empty()
 
         state.page = Number($(this).val())
         console.log(state.page)
@@ -670,7 +671,7 @@ function pageButtons(pages) {
 }
 
 function buildTable() {
-    var table = $("#table-body")
+    var table = document.querySelector("#table-body")
 
     var data = pagination(state.querySet, state.page, state.rows)
     var myList = data.querySet
@@ -682,7 +683,7 @@ function buildTable() {
                   <td>${myList[i].last_name}</td>
                   <td>${myList[i].salary}</td>
                   `
-        table.append(row)
+        table.insertAdjacentHTML("beforeend", row)
     }
     pageButtons(data.pages)
 }
